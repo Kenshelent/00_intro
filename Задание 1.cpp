@@ -1,15 +1,14 @@
-﻿#include <iostream>
-using namespace std;
+#include <iostream>
 
 int main()
 {
-	int x = 13; // Не люблю 13.
-	int y = 73;
-	cout << " x = " << x << endl;
-	cout << " y = " << y << endl;
-	cout << " x + y = " << x + y << endl;
-	cout << " x - y = " << x - y << endl;
-	cout << " x / y = " << x / y << endl;
-	cout << " x % y = " << x % y << endl;
-	return 0;
+    int x = 13;
+    int y = 73;
+    std::cout << "x: " << x << std::endl;
+    std::cout << "y: " << y << std::endl;
+    std::cout << "x + y: " << x + y << std::endl;
+    std::cout << " x - y: " << x - y << std::endl;
+    std::cout << "x / y : " << x / y << std::endl;
+    std::cout << "x % y: " << x % y << std::endl;
+    return 0;
 }
